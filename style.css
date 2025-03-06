@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "League Spartan";
+}
+main {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+.upper-section {
+  display: flex;
+}
+.upper-left {
+  position: relative;
+  top: -40px;
+}
+.background-image {
+  height: 69vh;
+  /* width: 60vw; */
+}
+.nav-link {
+  display: flex;
+  position: absolute;
+  top: 40px;
+}
+.nav-link img {
+  height: 14px;
+  padding-left: 50px;
+  margin-top: 15px;
+}
+.nav-link a {
+  margin-left: 20px;
+  padding-top: 15px;
+  color: hsl(0, 0%, 100%);
+  text-transform: lowercase;
+}
+.nav-link a:hover {
+  border-bottom: white 2px solid;
+  padding-bottom: 5px;
+}
+.upper-right {
+  padding: 50px 90px 0px 85px;
+}
+.upper-right h1 {
+  font-size: 41px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+p {
+  line-height: 1.2;
+  color: hsl(0, 0%, 63%);
+}
+.shop-now {
+  display: flex;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.shop-now a {
+  color: black;
+  padding-right: 15px;
+}
+.shop-now a:hover {
+  color: hsl(0, 0%, 63%);
+}
+.shop-now img:hover {
+  transition: filter 0.3s ease-in-out;
+}
+.shop-now a:hover img {
+  filter: brightness(0) saturate(50%) invert(50%) sepia(50%) saturate(50%)
+    hue-rotate(90deg);
+}
+.buttons {
+  display: flex;
+  margin-top: 47px;
+  margin-left: -85px;
+}
+button {
+  border-radius: 0%;
+  background-color: black;
+  border-style: hidden;
+}
+button img {
+  padding: 25px;
+}
+button:hover {
+  background-color: hsl(0, 0%, 27%);
+}
+.bottom-section {
+}
